@@ -68,9 +68,9 @@
     <div class="subfooter container-fluid py-4">
         <div class="row">
             <div class="col-12 text-center">
-                <h5 class="font-weight-bold mb-3">Instituto Acesso - Desenvolvimento de Carreiras</h5>
-                <h5 class="mb-3">Goiânia - GO</h5>
-                <h3 class="font-weight-bold mb-0">Fone: (62) 98115-4676</h3>
+                <h5 class="font-weight-bold mb-3">PRIMUS - Centro de entretenimentos</h5>
+                <h5 class="mb-3">Limoeiro, 211 casa 2 - Areias - Tijucas -SC - 88200-000</h5>
+                <h3 class="font-weight-bold mb-0">Fone: (48) 3197-2020</h3>
             </div>
         </div>
     </div>
@@ -150,7 +150,7 @@
     <div class="subfooter container-fluid py-3">
         <div class="row">
             <div class="col-12 text-center">
-                <h5 class="font-weight-bold mb-3">Instituto Acesso - Desenvolvimento de Carreiras</h5>
+                <h5 class="font-weight-bold mb-3">PRIMUS - Centro de entretenimentos</h5>
                 <h5 class="mb-3">Goiânia- GO</h5>
                 <h3 class="font-weight-bold mb-0">Fone: (62) 98115-4676</h3>
             </div>
