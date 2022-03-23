@@ -1,11 +1,17 @@
 section#contato__wrapper {
-  background-image: url('/images/contatobg.jpg');
   color: $white !important;
+  padding: 5em 0;
 
   h3 {
+    text-align: center;
+    margin-bottom: 2em;
+
     &.title {
       font-size: 2.5em;
       font-weight: 700;
+      position: relative;
+      color: #666666;
+      z-index: 2;
     }
   }
 

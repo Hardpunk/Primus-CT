@@ -29,9 +29,9 @@
 
     <div class="container mb-4 p-3">
         <div class="row align-items-center">
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <a href="/">
-                    <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" class="img-fluid">
+                    <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" width="180" class="img-fluid">
                 </a>
                 <div class="col-md-12 social-media text-center mt-2">
                     <a href="https://www.facebook.com/institutoacesso.dc"> <i class="fab fa-2x fa-facebook"></i></a>

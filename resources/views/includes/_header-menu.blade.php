@@ -17,7 +17,7 @@
         }
     }
 @endphp
-<div class="container-fluid">
+<div class="container">
     <div class="menu d-none d-md-block">
         <div class="row d-flex align-items-center px-lg-3 py-3">
             <div class="col-md-5 col-xl-2 text-center text-xl-left">
@@ -25,13 +25,13 @@
                     <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" class="logo img-fluid"/>
                 </a>
             </div>
-            <div class="col-md-7 col-xl-4">
+            <div class="col-md-7 col-xl-3">
                 <div class="search-wrapper mb-0 d-flex justify-content-center">
                     <form action="{{ route('search') }}" method="GET" role="search" class="form-search-box">
                         <input autocomplete="off" type="text" class="form-control search-input" name="q"/>
                         <div class="placeholder">
                             <div>
-                                <p>O que você quer apreender?</p>
+                                <p>Faça sua busca...</p>
                             </div>
                         </div>
                         <button type="submit" class="search-btn">
@@ -40,14 +40,18 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-12 col-xl-6">
+            <div class="col-md-12 col-xl-7">
                 <ul class="navbar-nav float-right flex-row align-items-center mb-xl-1">
                     <li class="nav-item {{ Request::is('/*') ? 'active' : '' }}">
                         <a href="/" class="nav-link">Início</a>
                     </li>
 
-                    <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }}">
-                        <a href="/cursos" class="nav-link">Cursos</a>
+                    <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }} dropdown">
+                        <a href="/cursos" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cursos presencais</a>
+                            <a class="dropdown-item" href="#">Cursos EAD</a>
+                        </div>
                     </li>
 
                     <li class="nav-item">
@@ -203,7 +207,7 @@
                     <input autocomplete="off" type="text" class="form-control search-input" name="q"/>
                     <div class="placeholder">
                         <div>
-                            <span>O que você quer apreender?</span>
+                            <span>Faça sua busca...</span>
                         </div>
                     </div>
                     <button type="submit" class="search-btn">

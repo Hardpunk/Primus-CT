@@ -415,10 +415,15 @@ body {
 
   .dropdown-menu {
     border-radius: 0;
-
+    
     > .dropdown-item {
       color: #888;
       text-transform: uppercase;
+      padding: .8em;
+
+      &:hover {
+        background-color: $theme-color-3;
+      }
     }
   }
 }

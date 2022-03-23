@@ -21321,7 +21321,7 @@ label.error {
   background-color: #e23d5d !important;
 }
 #breadcrumb .breadcrumb__wrapper h2 {
-  font-size: 2.875rem;
+  font-size: 2.5rem;
 }
 #breadcrumb .breadcrumb__wrapper h3 {
   font-size: 2.375rem;
@@ -21670,6 +21670,10 @@ body {
 .menu .dropdown-menu > .dropdown-item {
   color: #888;
   text-transform: uppercase;
+  padding: 0.8em;
+}
+.menu .dropdown-menu > .dropdown-item:hover {
+  background-color: #e23d5d;
 }
 
 .select2-container--default .select2-results__option--selected {
@@ -22108,6 +22112,53 @@ article#termos-uso__wrapper p {
 section.choose-category.bg-area-curso {
   background-color: #f7f7f7;
 }
+section.choose-category.new-bg-area-curso {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: flex;
+  z-index: 0;
+  position: relative;
+}
+@media (min-width: 768px) {
+  section.choose-category.new-bg-area-curso {
+    padding-bottom: 10rem !important;
+  }
+}
+section.choose-category.new-bg-area-curso svg {
+  position: absolute;
+  bottom: 80px;
+}
+section.choose-category.curso-maq-pesada {
+  padding: 0 0 16rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-color: #e13c5c;
+  display: flex;
+  z-index: 1;
+  margin-top: -5rem;
+}
+@media (max-width: 991.98px) {
+  section.choose-category.curso-maq-pesada {
+    padding: 3rem 0 7rem 0;
+    background-position: right !important;
+  }
+  section.choose-category.curso-maq-pesada .curso-de-maquinas {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+section.choose-category.curso-maq-pesada .btn-personalized {
+  background-color: #fff;
+  width: 240px;
+  border-radius: 50px;
+  font-size: 2em;
+  color: #e13c5c;
+  font-weight: bold;
+  margin-top: 2em;
+}
 section.choose-category h3.title {
   color: #525252;
 }
@@ -22438,6 +22489,7 @@ section.choose-category .course-featured__wrapper--carousel .card .card-body-but
 
 #faq {
   color: #525252;
+  background-color: #f7f7f7;
 }
 #faq h3.title {
   font-size: 2.5em;
@@ -22448,21 +22500,29 @@ section.choose-category .course-featured__wrapper--carousel .card .card-body-but
 }
 #faq .faq-container .card {
   border: none;
+  margin: 2em 0;
+  background-color: transparent;
+  box-shadow: none !important;
 }
 #faq .faq-container .card .card-header {
   border-radius: 0 !important;
-  background-color: #525252;
-  color: #fff;
+  color: #e23d5d;
   padding: 0;
   margin: 0;
+  background-color: #fff;
 }
 #faq .faq-container .card .card-header button.btn {
   padding: 1.125rem 1.375rem;
-  color: #fff !important;
-  font-weight: 500;
+  color: #e23d5d !important;
+  border: 2px solid #e23d5d;
+  font-weight: bold;
   text-decoration: none;
   margin: 0;
   text-transform: full-size-kana;
+  outline: none !important;
+}
+#faq .faq-container .card .card-header button.btn:focus {
+  box-shadow: none;
 }
 #faq .faq-container .card .card-header button.btn > * {
   vertical-align: middle;
@@ -22481,13 +22541,14 @@ section.choose-category .course-featured__wrapper--carousel .card .card-body-but
   display: none;
 }
 #faq .faq-container .card:not(:last-child) .card-header {
-  border-bottom: 1px solid #fff;
+  /* border-bottom: 1px solid $white; */
 }
 #faq .faq-container .card .collapse .card-body,
 #faq .faq-container .card .collapsing .card-body {
   font-size: 1rem;
   padding: 1.25rem 1rem;
   color: #666666 !important;
+  background-color: #fff;
 }
 
 @media (max-width: 767.98px) {
@@ -22496,12 +22557,19 @@ section.choose-category .course-featured__wrapper--carousel .card .card-body-but
   }
 }
 section#contato__wrapper {
-  background-image: url("/images/contatobg.jpg");
   color: #fff !important;
+  padding: 5em 0;
+}
+section#contato__wrapper h3 {
+  text-align: center;
+  margin-bottom: 2em;
 }
 section#contato__wrapper h3.title {
   font-size: 2.5em;
   font-weight: 700;
+  position: relative;
+  color: #666666;
+  z-index: 2;
 }
 section#contato__wrapper form#form-contato label {
   font-size: 0.875rem;
@@ -22545,7 +22613,7 @@ section#contato__wrapper form#form-contato .form-control::-ms-input-placeholder 
 }
 section#funcionalidades__wrapper {
   color: #525252 !important;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 section#funcionalidades__wrapper h3.title {
   font-size: 2.5em;

@@ -7,7 +7,57 @@
 
 section.choose-category {
   &.bg-area-curso {
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
+  }
+
+  &.new-bg-area-curso {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    z-index: 0;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 10rem !important;
+    }
+
+    svg {
+      position: absolute;
+      bottom:80px;
+    }
+  }
+
+  &.curso-maq-pesada {
+    padding: 0 0 16rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-color: #e13c5c;
+    display: flex;
+    z-index: 1;
+    margin-top: -5rem;
+
+    @include media-breakpoint-down(md) {
+      padding: 3rem 0 7rem 0;
+      background-position: right !important;
+
+      .curso-de-maquinas {
+        width: 100%;
+        max-width: 260px;
+      }
+    }
+    
+    .btn-personalized {
+      background-color: #fff;
+      width: 240px;
+      border-radius: 50px;
+      font-size: 2em;
+      color: #e13c5c;
+      font-weight: bold;
+      margin-top: 2em;
+    }
   }
 
   h3.title {
