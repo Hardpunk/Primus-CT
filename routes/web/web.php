@@ -73,6 +73,8 @@ Route::get('/', 'PageController@home')->name('home');
 // Search results
 Route::get('/search', 'SearchController@search')->name('search');
 
+Route::get('/cursos-presenciais', 'PageController@coursesClassrom')->name('courses-classrom');
+
 // Route::get('/termos-de-uso', 'PageController@termos')->name('termos-de-uso');
 
 // Course routes group

@@ -69,8 +69,9 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h5 class="font-weight-bold mb-3">PRIMUS - Centro de entretenimentos</h5>
-                <h5 class="mb-3">Limoeiro, 211 casa 2 - Areias - Tijucas -SC - 88200-000</h5>
-                <h3 class="font-weight-bold mb-0">Fone: (48) 3197-2020</h3>
+                <h5 class="mb-3">Av. Paineiras, 110 - Tijucas - SC - 88200-000</h5>
+                <h3 class="font-weight-bold mb-3"><a href="tel:4831972020" target="_blank" class="text-white">Fone: (48) 3197-2020</h3>
+                <h3 class="font-weight-bold mb-0"><a href="https://api.whatsapp.com/send?phone=554831972020&text=Ol%C3%A1%2C%20encontrei%20o%20n%C3%BAmero%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="text-white">WhatsApp: (48) 3197-2020</h3>
             </div>
         </div>
     </div>

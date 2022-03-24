@@ -49,8 +49,8 @@
                     <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }} dropdown">
                         <a href="/cursos" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Cursos</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Cursos presencais</a>
-                            <a class="dropdown-item" href="#">Cursos EAD</a>
+                            <a class="dropdown-item" href="/cursos-presenciais">Cursos Presencais</a>
+                            <a class="dropdown-item" href="/cursos">Cursos EAD</a>
                         </div>
                     </li>
 

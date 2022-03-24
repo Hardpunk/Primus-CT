@@ -40,6 +40,11 @@ class PageController extends Controller
         return view('pages.condicoes-gerais');
     }
 
+    public function coursesClassRom()
+    {
+        return view('pages.courses-classrom');
+    }
+
     public function contato()
     {
         return view('pages.contato');

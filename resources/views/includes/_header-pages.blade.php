@@ -3,7 +3,7 @@
         @include('includes._header-menu')
     </div>
     @if(Request::is('cursos*') || Request::is('search*'))
-    <div id="breadcrumb" class="breadcrumb mb-0 text-black py-4">
+    <div id="breadcrumb" class="breadcrumb mb-0 text-black py-1 rounded-0">
         @yield('breadcrumb')
     </div>
     @endif
