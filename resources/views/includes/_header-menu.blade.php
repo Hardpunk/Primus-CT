@@ -147,7 +147,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="https://www.sie.com.br/institutoacesso" class="nav-link sie-button">Área do aluno</a>
+                        <a href="https://www.sie.com.br/primus-ct" class="nav-link sie-button">Área do aluno</a>
                     </li>
                 </ul>
             </div>
@@ -206,7 +206,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="https://www.sie.com.br/institutoacesso" class="nav-link sie-button">Área do aluno</a>
+                        <a href="https://www.sie.com.br/primus-ct" class="nav-link sie-button">Área do aluno</a>
                     </li>
                 </ul>
             </div>

@@ -34,8 +34,8 @@
                     <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" width="180" class="img-fluid">
                 </a>
                 <div class="col-md-12 social-media text-center mt-2">
-                    <a href="https://www.facebook.com/institutoacesso.dc"> <i class="fab fa-2x fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/institutoacesso.dc"> <i class="fab fa-2x fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/PrimusCentrodeTreinamento"> <i class="fab fa-2x fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/primusctoficial/"> <i class="fab fa-2x fa-instagram"></i></a>
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
 
                             <div class="col-md-4">
                                 <a target="_blank"
-                                   href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.institutoacesso.com.br&hl=pt_BR">
+                                   href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.ctprimus&hl=pt_BR">
                                     <img class="img-fluid" src="/images/site-seguro.png" alt="Selo site seguro">
                                 </a>
                             </div>
@@ -119,8 +119,8 @@
                                 </a>
                             </div>
                             <div class="col-md-12 social-media text-aling-center mt-3">
-                                <a href="https://www.facebook.com/institutoacesso.dc"> <i class="fab fa-2x fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/institutoacesso.dc"> <i class="fab fa-2x fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/PrimusCentrodeTreinamento"> <i class="fab fa-2x fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/primusctoficial"> <i class="fab fa-2x fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
 
                             <div class="col-6 offset-3 offset-sm-0 col-sm-4 mb-3 mb-sm-0">
                                 <a target="_blank"
-                                   href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.institutoacesso.com.br&hl=pt_BR">
+                                   href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.ctprimus&hl=pt_BR">
                                     <img class="img-fluid" src="/images/site-seguro.png" alt="Selo site seguro">
                                 </a>
                             </div>
