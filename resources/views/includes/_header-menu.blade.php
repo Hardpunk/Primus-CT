@@ -46,6 +46,10 @@
                         <a href="/" class="nav-link">Início</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a href="/sobre-nos" class="nav-link">Sobre nós</a>
+                    </li>
+
                     <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }} dropdown">
                         <a href="/cursos" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Cursos</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -167,8 +171,12 @@
                         <a href="/" class="nav-link">Início</a>
                     </li>
 
-                    <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }}">
-                        <a href="/cursos" class="nav-link">Cursos</a>
+                    <li class="nav-item {{ Request::is('cursos*') ? 'active' : '' }} dropdown">
+                        <a href="/cursos" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/cursos-presenciais">Cursos Presencais</a>
+                            <a class="dropdown-item" href="/cursos">Cursos EAD</a>
+                        </div>
                     </li>
 
                     <li class="nav-item">

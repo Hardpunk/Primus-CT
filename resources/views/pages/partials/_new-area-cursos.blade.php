@@ -19,7 +19,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <a href="#" class="btn btn-personalized">Saiba mais</a>
+                <a href="/cursos-presenciais" class="btn btn-personalized">Saiba mais</a>
             </div>
         </div>
     </div>

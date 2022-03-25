@@ -21507,7 +21507,7 @@ body {
 }
 .menu:not(.mobile) .nav-item {
   line-height: 1;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .menu:not(.mobile) .nav-item.cart-button {
   position: relative;
@@ -21616,7 +21616,7 @@ body {
 .menu:not(.mobile) .nav-item .nav-link {
   font-size: 1.071em;
   color: #525252;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   line-height: 30px;
 }
 .menu:not(.mobile) .nav-item .nav-link.sie-button {
@@ -22132,8 +22132,8 @@ section.choose-category.new-bg-area-curso svg {
 section.choose-category.curso-maq-pesada {
   padding: 0 0 16rem 0;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-size: 100%;
+  background-position: bottom;
   position: relative;
   background-color: #e13c5c;
   display: flex;
@@ -22142,8 +22142,7 @@ section.choose-category.curso-maq-pesada {
 }
 @media (max-width: 991.98px) {
   section.choose-category.curso-maq-pesada {
-    padding: 3rem 0 7rem 0;
-    background-position: right !important;
+    padding: 3rem 0 9rem 0;
   }
   section.choose-category.curso-maq-pesada .curso-de-maquinas {
     width: 100%;

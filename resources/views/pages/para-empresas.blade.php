@@ -66,7 +66,7 @@
             <div class="col-md-12 text-center py-5">
                 <h2><strong>VANTAGENS PARA AS EMPRESAS QUE INVESTEM EM TREINAMENTOS</strong></h2>
             </div>
-            <div
+            <div class="row py-4">
                 <div class="col-md-4 text-center">
                     <div class="icone p-2">
                         <span class="lnr lnr-chart-bars"></span>

@@ -77,6 +77,8 @@ Route::get('/cursos-presenciais', 'PageController@coursesClassrom')->name('cours
 
 // Route::get('/termos-de-uso', 'PageController@termos')->name('termos-de-uso');
 
+Route::get('/sobre-nos', 'PageController@about')->name('sobre-nos');
+
 // Course routes group
 Route::group(
     ['prefix' => '/cursos'],

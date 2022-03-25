@@ -31,8 +31,8 @@ section.choose-category {
   &.curso-maq-pesada {
     padding: 0 0 16rem 0;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 100%;
+    background-position: bottom;
     position: relative;
     background-color: #e13c5c;
     display: flex;
@@ -40,8 +40,7 @@ section.choose-category {
     margin-top: -5rem;
 
     @include media-breakpoint-down(md) {
-      padding: 3rem 0 7rem 0;
-      background-position: right !important;
+      padding: 3rem 0 9rem 0;
 
       .curso-de-maquinas {
         width: 100%;
