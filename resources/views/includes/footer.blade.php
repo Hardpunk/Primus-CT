@@ -34,7 +34,7 @@
                     <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" width="180" class="img-fluid">
                 </a>
                 <div class="col-md-12 social-media text-center mt-2">
-                    <a href="https://www.facebook.com/PrimusCentrodeTreinamento"> <i class="fab fa-2x fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/PrimusCentrodeTreinamentos"> <i class="fab fa-2x fa-facebook"></i></a>
                     <a href="https://www.instagram.com/primusctoficial/"> <i class="fab fa-2x fa-instagram"></i></a>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                                 </a>
                             </div>
                             <div class="col-md-12 social-media text-aling-center mt-3">
-                                <a href="https://www.facebook.com/PrimusCentrodeTreinamento"> <i class="fab fa-2x fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/PrimusCentrodeTreinamentos"> <i class="fab fa-2x fa-facebook"></i></a>
                                 <a href="https://www.instagram.com/primusctoficial"> <i class="fab fa-2x fa-instagram"></i></a>
                             </div>
                         </div>
